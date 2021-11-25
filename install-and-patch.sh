@@ -64,3 +64,8 @@ cp ../../patches/iutil.c $tpath/
 bin/pocc-util make all
 
 make install
+
+cp ../../run-mdt.sh .
+cp ../../gemm.c .
+
+./run-mdt.sh gemm 7 KNL

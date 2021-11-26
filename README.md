@@ -16,7 +16,7 @@ For example (gemm.c, loop-depth=3 --> 7 scheduling dimensions):
 
 ./run-mdt.sh gemm 7 SKX
   
-Please cite [https://dl.acm.org/doi/10.1145/3314221.3314653](this article as):
+Please cite [this article as](https://dl.acm.org/doi/10.1145/3314221.3314653):
   
 @inproceedings{10.1145/3314221.3314653,
 author = {Kong, Martin and Pouchet, Louis-No\"{e}l},
